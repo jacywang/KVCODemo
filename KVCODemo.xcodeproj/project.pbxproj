@@ -14,6 +14,7 @@
 		9C074B721B045AD100E2ED7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C074B711B045AD100E2ED7D /* Images.xcassets */; };
 		9C074B751B045AD100E2ED7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C074B731B045AD100E2ED7D /* LaunchScreen.xib */; };
 		9C074B811B045AD100E2ED7D /* KVCODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C074B801B045AD100E2ED7D /* KVCODemoTests.m */; };
+		9C074B8C1B045D5700E2ED7D /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C074B8B1B045D5700E2ED7D /* Children.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9C074B7A1B045AD100E2ED7D /* KVCODemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVCODemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C074B7F1B045AD100E2ED7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C074B801B045AD100E2ED7D /* KVCODemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCODemoTests.m; sourceTree = "<group>"; };
+		9C074B8A1B045D5700E2ED7D /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		9C074B8B1B045D5700E2ED7D /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				9C074B6B1B045AD100E2ED7D /* ViewController.h */,
 				9C074B6C1B045AD100E2ED7D /* ViewController.m */,
 				9C074B6E1B045AD100E2ED7D /* Main.storyboard */,
+				9C074B8A1B045D5700E2ED7D /* Children.h */,
+				9C074B8B1B045D5700E2ED7D /* Children.m */,
 				9C074B711B045AD100E2ED7D /* Images.xcassets */,
 				9C074B731B045AD100E2ED7D /* LaunchScreen.xib */,
 				9C074B641B045AD100E2ED7D /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				9C074B6D1B045AD100E2ED7D /* ViewController.m in Sources */,
 				9C074B6A1B045AD100E2ED7D /* AppDelegate.m in Sources */,
+				9C074B8C1B045D5700E2ED7D /* Children.m in Sources */,
 				9C074B671B045AD100E2ED7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
